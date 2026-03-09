@@ -1,0 +1,94 @@
+//STRING METHODS 
+>>> text = "hello world"
+>>>
+>>> print(text.upper())      # HELLO WORLD
+HELLO WORLD
+
+>>> print(text.lower())      # hello world
+hello world
+
+>>> print(text.title())      # Hello World
+Hello World
+
+>>> print(text.replace("world", "Python"))  # hello Python
+hello Python
+
+>>> print(text.split())      # ['hello', 'world']
+['hello', 'world']
+
+// STRING OPERATIONS
+>>> a = "Hello"
+>>> b = "Python"
+>>> print(a + " " + b)   # Concatenation
+Hello Python
+>>> print(a * 3)         # Repeat string
+HelloHelloHello
+>>> print(a[1])          # Access character
+e
+>>> print(len(a))        # Length
+5
+>>> print(a * 3)         # Repeat string# For loop
+HelloHelloHello
+
+
+// LOOPS
+>>> for i in range(5):
+...     print(i)
+...
+0
+1
+2
+3
+4
+>>> # While loop
+>>> i = 0
+>>> while i < 5:
+...     print(i)
+...     i += 1
+...
+0
+1
+2
+3
+4
+
+//TUPLES
+>>> t = (10, 20, 30)
+>>>
+>>> print(t[0])      # Access
+10
+>>> print(len(t))    # Length
+3
+>>>
+>>> # Loop through tuple
+>>> for i in t:
+...     print(i)
+...
+10
+20
+30
+
+//FUNCTIONS
+>>> def add(a, b):
+...     return a + b
+...
+>>> print(add(5, 3))
+8
+
+//MODULES
+>>> import math
+>>>
+>>> print(math.sqrt(16))  # 4.0
+4.0
+>>> print(math.factorial(5))  # 120
+120
+
+//LIST METHODS
+>>> l = [1, 2, 3]
+>>> l.append(4)        # Add element
+>>> l.remove(2)        # Remove element
+>>> l.insert(1, 10)    # Insert element
+>>>
+>>> print(l)
+[1, 10, 3, 4]
+>>>
